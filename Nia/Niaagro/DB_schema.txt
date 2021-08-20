@@ -1,0 +1,32 @@
+mysql> desc signup;
++-----------------------+-------------+------+-----+---------+----------------+
+| Field                 | Type        | Null | Key | Default | Extra          |
++-----------------------+-------------+------+-----+---------+----------------+
+| id                    | int         | NO   | PRI | NULL    | auto_increment |
+| name                  | varchar(30) | YES  |     | NULL    |                |
+| comp_name             | varchar(12) | YES  |     | NULL    |                |
+| buyer_type            | varchar(12) | YES  |     | NULL    |                |
+| state                 | varchar(30) | YES  |     | NULL    |                |
+| city                  | varchar(20) | YES  |     | NULL    |                |
+| office_landline       | int         | YES  |     | NULL    |                |
+| phne                  | bigint      | YES  |     | NULL    |                |
+| emailid               | varchar(30) | YES  |     | NULL    |                |
+| products_manufactured | varchar(10) | YES  |     | NULL    |                |
+| pwd                   | varchar(25) | YES  |     | NULL    |                |
+| website               | varchar(25) | YES  |     | NULL    |                |
+| Gst_number            | varchar(25) | YES  |     | NULL    |                |
+| address               | varchar(35) | YES  |     | NULL    |                |
++-----------------------+-------------+------+-----+---------+----------------+
+14 rows in set (0.01 sec)
+
+
+
+
+mysql> desc states;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| statecode | int         | YES  |     | NULL    |       |
+| name      | varchar(50) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
