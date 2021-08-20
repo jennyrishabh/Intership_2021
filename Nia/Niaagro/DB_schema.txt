@@ -1,3 +1,5 @@
+/* author : jennyrishabh */
+
 mysql> desc signup;
 +-----------------------+-------------+------+-----+---------+----------------+
 | Field                 | Type        | Null | Key | Default | Extra          |
